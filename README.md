@@ -20,7 +20,7 @@ Navigate to the cloned directory. You can start using the model via
 By default, the model comes with the following parameters:
 
 ```python
-Conformer(
+ConformerEncoder(
     num_blocks=6,
     d_model=256,
     num_heads=4,
