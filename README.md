@@ -35,7 +35,7 @@ ConformerEncoder(
 
 The [Transformer](https://arxiv.org/abs/1706.03762) (Vaswani et al., 2017) has proven to be immensely successful in various domains, such as machine translation, [language modeling](https://arxiv.org/abs/1810.04805), and more recently, [computer vision](https://arxiv.org/abs/2010.11929). An important reason behind the success of the transformer architecture is self-attention, which allows the model to attend to the entire input sequence to generate rich feature representations.
 
-A more traditional model architecture, convolution neural networks have widely used in the vision domain. The sliding kernel structure encodes meaningful inductive biases such as translation invariance, making them suitable as local feature extractors.
+A more traditional model architecture, convolution neural networks have widely been used in the vision domain. The sliding kernel structure encodes meaningful inductive biases such as translational invariance, making them suitable as local feature extractors.
 
 The Conformer seeks to combine the best of both worlds: global features are extracted by the transformer, whereas local features are learned by the convolution module. The Conformer model has proven to be effective in [automatic speech recognition](https://paperswithcode.com/task/speech-recognition).
 
