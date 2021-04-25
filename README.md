@@ -13,7 +13,7 @@ git clone https://github.com/jaketae/conformer.git
 Navigate to the cloned directory. You can start using the model via
 
 ```python
->>> from conformer.models import ConformerEncoder
+>>> from conformer import ConformerEncoder
 >>> model = ConformerEncoder()
 ```
 
